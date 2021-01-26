@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+header {
+    background: black;
+    color: rgb(170, 79, 245);
+    font-family: verdana;
+    font-size: 75%;
+}
+
+.name {
+    background: rgb(198, 129, 255);
+    text-align: center;
+    font-family: verdana;
+    padding: 7%;
+}
+
+.age {
+    background: black;
+    color: rgb(198, 129, 255);
+    text-align: center;
+    font-family: verdana;
+    font-size: 175%;
+}
