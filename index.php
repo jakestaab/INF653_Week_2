@@ -1,5 +1,4 @@
 <?php
-    $arr = array('a','b','c');
     define('DAYS_IN_YEAR', 365);
 
     $firstname = filter_input(INPUT_GET, 'first', FILTER_SANITIZE_STRING);
