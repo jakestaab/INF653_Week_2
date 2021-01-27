@@ -6,8 +6,8 @@
     $lastname = filter_input(INPUT_GET, 'last', FILTER_SANITIZE_STRING);
     $age = filter_input(INPUT_GET, 'age', FILTER_SANITIZE_NUMBER_INT);
 
-    $canvote = "am old enough to vote in the United States";
-    $cannotvote = "am not old enough to vote in the United States";
+    $canvote = "am old enough to vote in the United States.";
+    $cannotvote = "am not old enough to vote in the United States.";
 ?>
 
 <!DOCTYPE html>
