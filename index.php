@@ -36,13 +36,13 @@
     <div class="age">
         <?php
             if (!empty($age)) {
-                echo "I am " . $age . " years young, and ";
+                echo "I am " . $age . " years old, and ";
                 if($age >= 18) {
                     echo $canvote;
                 } else {
                     echo $cannotvote;
                 }
-                echo "<br>" . "That means I am at least " . $age * DAYS_IN_YEAR . " old.";
+                echo "<br>" . "That means I am at least " . $age * DAYS_IN_YEAR . " days old.";
             } else {
                 echo "You did not submit a numeric age parameter!";
             }
